@@ -18,6 +18,26 @@
   border-radius: 7px;
   background: #eee;
 }
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background: var(--accent);
+  font-size: 1rem;
+  color: var(--bg);
+  padding: .7rem .9rem;
+  margin: .5rem 0;
+  transition: .4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--accent-dark);
+  color: #ccc;
+}
 </style>
 
 </head>
@@ -82,9 +102,9 @@
 <section id="contact" class="highlight">
   <p><strong>You deserve a <mark>well-designed, well-engineered</mark> product.</strong></p>
   <p>Start a personal conversation, talk to Brajeshwar, and tell your story.</p>
-  <form action="mailto:brajeshwar@oinam.com">
-    <button><strong>→ Contact / Email Brajeshwar</strong></button>
-  </form>
+  <p>
+    <a class="button" href="mailto:brajeshwar@oinam.com">→ Contact / Email Brajeshwar</a>
+  </p>
 </section>
 
 <footer>
